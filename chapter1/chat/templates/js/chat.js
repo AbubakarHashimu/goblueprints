@@ -16,7 +16,7 @@
     msgBox.val("");
     return false;
 
-  });
+  }); 
 
   if (!window["WebSocket"]) {
     alert("Error: Your browser does not support web sockets.")
